@@ -1,22 +1,7 @@
 .card-motto .motto_content p {
   margin-bottom: 10px;
   line-height: 1.8;
-}
-
-.card-motto .motto_content a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 5px 15px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #fff;
-  border-radius: 20px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.card-motto .motto_content a:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  font-size: 0.95em;
 }
 
 .card-quick-links .quick-links-content {
@@ -47,6 +32,12 @@
   color: var(--theme-color);
 }
 
+.card-friend-links {
+  position: relative;
+  z-index: 10;
+  margin-top: 15px;
+}
+
 .card-friend-links .friend-links-content {
   display: flex;
   flex-wrap: wrap;
@@ -68,4 +59,14 @@
   background: var(--theme-color);
   color: #fff;
   transform: translateY(-2px);
+}
+
+/* 修复卡片重叠问题 */
+.card-widget {
+  position: relative;
+  z-index: 1;
+}
+
+.aside-content .sticky_layout {
+  position: relative;
 }
