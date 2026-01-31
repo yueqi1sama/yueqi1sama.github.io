@@ -1,0 +1,71 @@
+.card-motto .motto_content p {
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.card-motto .motto_content a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 15px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.card-motto .motto_content a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.card-quick-links .quick-links-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-quick-links .quick-links-content a {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background: var(--card-bg);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.card-quick-links .quick-links-content a:hover {
+  background: var(--text-bg-hover);
+  transform: translateX(5px);
+}
+
+.card-quick-links .quick-links-content a i {
+  margin-right: 10px;
+  font-size: 1.1em;
+  color: var(--theme-color);
+}
+
+.card-friend-links .friend-links-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card-friend-links .friend-links-content a {
+  display: inline-block;
+  padding: 5px 12px;
+  background: var(--card-bg);
+  border-radius: 6px;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.card-friend-links .friend-links-content a:hover {
+  background: var(--theme-color);
+  color: #fff;
+  transform: translateY(-2px);
+}
