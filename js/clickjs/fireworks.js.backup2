@@ -81,7 +81,7 @@ function initfirework() {
             duration: anime.random(1200, 1800),
             easing: "easeOutExpo",
             update: renderParticule,
-            offset: '-=600'
+            offset: 0
         })
     }
     function debounce(fn, delay) {
