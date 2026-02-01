@@ -1,5 +1,13 @@
 function initfirework() {
 
+// 创建 Canvas 元素
+    var div = document.createElement("canvas");
+    div.className = "fireworks";
+    div.style = "position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;";
+
+    // 将 canvas 添加到 body
+    document.body.appendChild(div);
+    // 初始化变量
 
     function updateCoords(e) {
         pointerX = (e.clientX || e.touches[0].clientX) - canvasEl.getBoundingClientRect().left,
