@@ -55,7 +55,7 @@ function initfirework() {
             e.animatables[t].target.draw()
     }
     function animateParticules(e, t) {
-        for (var a = createCircle(e, t), n = [], i = 0; i < numberOfParticules; i++)
+        for (var n = [], i = 0; i < numberOfParticules; i++)
             n.push(createParticule(e, t));
         anime.timeline().add({
             targets: n,
@@ -70,19 +70,6 @@ function initfirework() {
             easing: "easeOutExpo",
             update: renderParticule
         }).add({
-            targets: a,
-            radius: anime.random(80, 160),
-            lineWidth: 0,
-            alpha: {
-                value: 0,
-                easing: "linear",
-                duration: anime.random(600, 800)
-            },
-            duration: anime.random(1200, 1800),
-            easing: "easeOutExpo",
-            update: renderParticule,
-            offset: 0
-        })
     }
     function debounce(fn, delay) {
         var timer
