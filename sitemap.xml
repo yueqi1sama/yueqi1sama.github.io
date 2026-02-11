@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yueqi1sama.github.io/2026/02/11/SIwave6/</loc>
+    
+    <lastmod>2026-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yueqi1sama.github.io/2026/02/10/SIwave5/</loc>
     
     <lastmod>2026-02-10</lastmod>
@@ -193,7 +202,7 @@
 
   <url>
     <loc>https://yueqi1sama.github.io/</loc>
-    <lastmod>2026-02-10</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -201,14 +210,14 @@
   
   <url>
     <loc>https://yueqi1sama.github.io/tags/SIwave/</loc>
-    <lastmod>2026-02-10</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yueqi1sama.github.io/tags/ANSYS/</loc>
-    <lastmod>2026-02-10</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -217,7 +226,7 @@
   
   <url>
     <loc>https://yueqi1sama.github.io/categories/EMC%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2026-02-10</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
