@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yueqi1sama.github.io/2026/02/23/ESD%E9%98%B2%E6%8A%A4/</loc>
+    
+    <lastmod>2026-02-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yueqi1sama.github.io/2026/02/21/SIwave8/</loc>
     
     <lastmod>2026-02-23</lastmod>
@@ -236,13 +245,6 @@
 
   
   <url>
-    <loc>https://yueqi1sama.github.io/tags/SIwave/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yueqi1sama.github.io/tags/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90/</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -251,6 +253,27 @@
   
   <url>
     <loc>https://yueqi1sama.github.io/tags/EMI%E6%BB%A4%E6%B3%A2%E5%99%A8/</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yueqi1sama.github.io/tags/ESD/</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yueqi1sama.github.io/tags/surge/</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yueqi1sama.github.io/tags/SIwave/</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
